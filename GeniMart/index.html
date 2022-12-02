@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+            <div class="logo">
+                <img src="./img/icon.webp" alt=""> <p>Genie<Span>Mart</Span></p>
+            </div>
+<div class="alignment">
+    
+    <div class="search-bar">
+        <div class="dropdown">
+            <button  onclick="myclick()" class="dropbtn">ALL CATEGORIES<i class="fa-solid fa-chevron-down"></i> </button>
+            <div id="mydrop" class="drop-content">
+                <ul>
+                <li> <a href="">Accessories</a></li>
+                <li>  <a href="">Mobile Camera Lens</a></li>
+                <li> <a href="">Top Saver Today</a></li>
+                <li>  <a href="">Discounts</a></li>
+                <li> <a href="">Electronics</a></li>
+                <li> <a href="">Today Savings</a></li>
+                <li> <a href="">Mobile Sim Tray</a></li>
+                <li> <a href="">Camera Lens</a></li>
+                </ul>   
+            </div>
+        </div>
+
+        <input type="text" id="Search" name="Search" placeholder="Search here" ><i class="fa-solid fa-magnifying-glass"></i><br>
+
+       
+    </div>
+    <div class="side-menu">
+        <a href="" onclick="openform()"><i class="fa-regular fa-user"></i>
+        </a>
+
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+
+        <p>My cart <br><span> Rs.0</span></p>
+
+    </div>
+</div>
+          
+        </header>
+
+        <div class="popup">
+            <div class="notification" id="popup" onkeypress="isInput(event)">
+                <i  class="fa-solid fa-circle-xmark"></i>
+              <form action="">
+                <P>Enter your phone number to <br> login/sign up</P>
+                <div class="phone">
+                  <select id="country">
+                    <option value="pk">92+</option>
+                  </select>
+                  <input type="text" name="" id="phone" placeholder="214-1254830" pattern="[0-9](3)-[0-9](7)" required>
+                </div>
+               <button type="submit" class="btn">Continue</button>
+              </form>
+              </div>
+        </div>
+
+        <script src="script.js"></script>
+ <script>
+      //form open function
+  function openform(){
+    document.getElementById("popup").style.display="block";
+}
+function closeform(){
+    document.getElementById("popup").style.display="none";
+}
+ </script>
+    </body>
+    </html>
+</body>
+</html>

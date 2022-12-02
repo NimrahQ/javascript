@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe9413"/>
+      <stop offset="1" stop-color="#fa545e"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1219" data-name="Group 1219" transform="translate(0)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="26.5" cy="26.5" r="26.5" transform="translate(0)" fill="url(#linear-gradient)"/>
+    <path id="Icon_ionic-ios-time" data-name="Icon ionic-ios-time" d="M16.7,3.375A13.325,13.325,0,1,0,30.024,16.7,13.323,13.323,0,0,0,16.7,3.375Zm.9,14.478a.9.9,0,0,1-.9.9H10.55a.9.9,0,1,1,0-1.794H15.8V8.5a.9.9,0,0,1,1.794,0Z" transform="translate(9.508 9.861)" fill="#fff"/>
+  </g>
+</svg>
